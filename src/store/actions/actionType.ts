@@ -1,0 +1,5 @@
+export const GETENTITIES = "GETENTITIES";
+export const UPDATENTITY = "UPDATENTITY";
+
+export const GETHISTORY = "GETHISTORY";
+export const UPDATELOADING = "UPDATELOADING";

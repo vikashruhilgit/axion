@@ -1,0 +1,20 @@
+.Wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+  position: relative;
+  input {
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 20px;
+    width: 50%;
+    height: 2rem;
+    padding: 0 15px;
+    box-sizing: border-box;
+    z-index: 9;
+    &:focus {
+      box-shadow: 0 1px 6px lightgrey;
+    }
+  }
+}

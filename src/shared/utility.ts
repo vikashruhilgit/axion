@@ -1,0 +1,1 @@
+export const parseAsNumber = (value: string) => value ? Number(value.replace(/[^0-9.]/g, '')).toFixed(2) : '0.00';

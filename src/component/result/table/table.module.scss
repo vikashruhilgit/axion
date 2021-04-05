@@ -1,0 +1,41 @@
+.Wrapper {
+  width: 100%;
+  table {
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    thead {
+      tr {
+        border-bottom: 1px solid lightgrey;
+        th {
+          padding: 5px;
+          padding-right: 0;
+          font-size: 12px;
+          font-weight: normal;
+          text-align: right;
+          &:first-child {
+            text-align: left;
+            padding-right: 5px;
+            padding-left: 0;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        border-bottom: 1px solid lightgrey;
+        td {
+          padding: 5px;
+          padding-right: 0;
+          text-align: right;
+          font-size: 14px;
+          &:first-child {
+            text-align: left;
+            padding-right: 5px;
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
